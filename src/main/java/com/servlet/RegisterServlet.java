@@ -38,14 +38,14 @@ public class RegisterServlet extends HttpServlet {
             gender.trim().isEmpty()) {
             
             request.setAttribute("error", "All fields are required");
-            request.getRequestDispatcher("register.html").forward(request, response);
+            request.getRequestDispatcher("register.jsp").forward(request, response);
             return;
         }
 
         // Check if email already exists
         if (userDAO.emailExists(email)) {
             request.setAttribute("error", "Email already exists");
-            request.getRequestDispatcher("register.html").forward(request, response);
+            request.getRequestDispatcher("register.jsp").forward(request, response);
             return;
         }
 

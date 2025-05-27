@@ -104,7 +104,7 @@ public class DashboardServlet extends HttpServlet{
 
     private List<Order> getRecentOrders(Connection conn) throws SQLException {
         List<Order> orders = new ArrayList<>();
-        String sql = "SELECT OrderID, UserID, OrderDate, TotalAmount, Status FROM Orders ORDER BY OrderDate DESC LIMIT 3";
+        String sql = "SELECT TOP 3 OrderID, UserID, OrderDate, TotalAmount, Status FROM Orders ORDER BY OrderDate DESC";
         try (PreparedStatement stmt = conn.prepareStatement(sql);
              ResultSet rs = stmt.executeQuery()) {
             while (rs.next()) {
@@ -122,10 +122,10 @@ public class DashboardServlet extends HttpServlet{
 
     private List<MenuItem> getPopularItems(Connection conn) throws SQLException {
         List<MenuItem> items = new ArrayList<>();
-        String sql = "SELECT m.MenuID, m.Name, m.Category, m.Price, COUNT(oi.MenuID) as OrderCount " +
+        String sql = "SELECT TOP 5 m.MenuID, m.Name, m.Category, m.Price, COUNT(oi.MenuID) as OrderCount " +
                 "FROM Menu m LEFT JOIN OrderItems oi ON m.MenuID = oi.MenuID " +
                 "GROUP BY m.MenuID, m.Name, m.Category, m.Price " +
-                "ORDER BY OrderCount DESC LIMIT 5";
+                "ORDER BY OrderCount DESC";
         try (PreparedStatement stmt = conn.prepareStatement(sql);
              ResultSet rs = stmt.executeQuery()) {
             while (rs.next()) {

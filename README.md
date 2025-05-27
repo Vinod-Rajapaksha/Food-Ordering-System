@@ -46,24 +46,24 @@ A full-featured, dynamic Food Ordering System developed using Java, JSP, Servlet
 
 <table>
   <tr>
-    <td><img src="images/userlogin.png" style="width: 500px; height: 300px; object-fit: cover;"></td>
-    <td><img src="images/userregister.png" style="width: 500px; height: 300px; object-fit: cover;"></td>
+    <td><img src="images/userlogin.png" style="height: 300px; width: auto; object-fit: contain;"></td>
+    <td><img src="images/userregister.png" style="height: 300px; width: auto; object-fit: contain;"></td>
   </tr>
   <tr>
     <td align="center">📦 Login Page</td>
     <td align="center">📦 Register Page</td>
   </tr>
   <tr>
-    <td><img src="images/menu.png" style="width: 500px; height: 300px; object-fit: cover;"></td>
-    <td><img src="images/cart.png" style="width: 500px; height: 300px; object-fit: cover;"></td>
+    <td><img src="images/menu.png" style="height: 300px; width: auto; object-fit: contain;"></td>
+    <td><img src="images/cart.png" style="height: 300px; width: auto; object-fit: contain;"></td>
   </tr>
   <tr>
     <td align="center">🍽️ Menu</td>
     <td align="center">✍️ Cart</td>
   </tr>
     <tr>
-    <td><img src="images/admindashboard.png" style="width: 500px; height: 300px; object-fit: cover;"></td>
-    <td><img src="images/menumanagement.png" style="width: 500px; height: 300px; object-fit: cover;"></td>
+    <td><img src="images/admindashboard.png" style="height: 300px; width: auto; object-fit: contain;;"></td>
+    <td><img src="images/menumanagement.png" style="height: 300px; width: auto; object-fit: contain;"></td>
   </tr>
   <tr>
     <td align="center">📦 Admin Dashboard</td>

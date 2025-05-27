@@ -46,24 +46,24 @@ A full-featured, dynamic Food Ordering System developed using Java, JSP, Servlet
 
 <table>
   <tr>
-    <td align="center"><img src="images/userlogin.png" style="height: 200px; width: auto; object-fit: contain; display: block; margin: auto;"></td>
-    <td align="center"><img src="images/userregister.png" style="height: 200px; width: auto; object-fit: contain; display: block; margin: auto;"></td>
+    <td align="center"><img src="images/userlogin.png" style="height: 250px; width: auto; object-fit: contain; display: block; margin: auto;"></td>
+    <td align="center"><img src="images/userregister.png" style="height: 250px; width: auto; object-fit: contain; display: block; margin: auto;"></td>
   </tr>
   <tr>
     <td align="center">📦 Login Page</td>
     <td align="center">📦 Register Page</td>
   </tr>
   <tr>
-    <td align="center"><img src="images/menu.png" style="height: 200px; width: auto; object-fit: contain; display: block; margin: auto;"></td>
-    <td align="center"><img src="images/cart.png" style="height: 200px; width: auto; object-fit: contain; display: block; margin: auto;"></td>
+    <td align="center"><img src="images/menu.png" style="height: 250px; width: auto; object-fit: contain; display: block; margin: auto;"></td>
+    <td align="center"><img src="images/cart.png" style="height: 250px; width: auto; object-fit: contain; display: block; margin: auto;"></td>
   </tr>
   <tr>
     <td align="center">🍽️ Menu</td>
     <td align="center">✍️ Cart</td>
   </tr>
     <tr>
-    <td align="center"><img src="images/admindashboard.png" style="height: 200px; width: auto; object-fit: contain; display: block; margin: auto;"></td>
-    <td align="center"><img src="images/menumanagement.png" style="height: 200px; width: auto; object-fit: contain; display: block; margin: auto;"></td>
+    <td align="center"><img src="images/admindashboard.png" style="height: 250px; width: auto; object-fit: contain; display: block; margin: auto;"></td>
+    <td align="center"><img src="images/menumanagement.png" style="height: 250px; width: auto; object-fit: contain; display: block; margin: auto;"></td>
   </tr>
   <tr>
     <td align="center">📦 Admin Dashboard</td>

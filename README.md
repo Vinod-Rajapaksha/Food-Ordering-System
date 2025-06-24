@@ -75,5 +75,5 @@ A full-featured, dynamic Food Ordering System developed using Java, JSP, Servlet
 
 ## 🔗 Links
 
-- 👨‍💻 Author: [Vinod Madhuranga](https://github.com/Vinod-Madhuranga)
-- 📦 Repo: [github.com/Vinod-Madhuranga/Toy-Store](https://github.com/Vinod-Madhuranga/Toy-Store)
+- 👨‍💻 Author: [Vinod Rajapaksha](https://github.com/Vinod-Rajapaksha)
+- 📦 Repo: [github.com/Vinod-Rajapaksha/Toy-Store](https://github.com/Vinod-Rajapaksha/Toy-Store)
